@@ -1,0 +1,46 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram name="Page-1" id="hSkNQwBkQUBq_sQD7Qis">
+    <mxGraphModel dx="946" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MtleiJ79-h41vaPRRvAg-1" value="Triangle" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="310" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-2" value="- side1: double&amp;nbsp;&lt;div&gt;- side2: double&amp;nbsp;&lt;/div&gt;&lt;div&gt;- side3: double&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MtleiJ79-h41vaPRRvAg-1">
+          <mxGeometry y="26" width="310" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-5" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MtleiJ79-h41vaPRRvAg-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="310" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-3" value="+ Triangle()&lt;div&gt;+ Triangle(side1: double, side2: double, side3: double)&lt;/div&gt;&lt;div&gt;+ getSide1(): double&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getSide2(): double&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getSide3(): double&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getArea(): double&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ getPerimeter(): double&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MtleiJ79-h41vaPRRvAg-1">
+          <mxGeometry y="80" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-6" value="GeometricObject" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="335" y="350" width="280" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-7" value="- color: String&lt;div&gt;- filled: boolean&lt;/div&gt;&lt;div&gt;- dateCreated: Date&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MtleiJ79-h41vaPRRvAg-6">
+          <mxGeometry y="26" width="280" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-10" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="MtleiJ79-h41vaPRRvAg-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="80" as="sourcePoint" />
+            <mxPoint x="280" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-8" value="+ GeometricObject()&lt;div&gt;+ GeometricObject(color: String, filled: boolean)&lt;/div&gt;&lt;div&gt;+ getColor(): String&lt;/div&gt;&lt;div&gt;+ setColor(color: String): void&lt;/div&gt;&lt;div&gt;+ isFilled(): boolean&lt;/div&gt;&lt;div&gt;+ setFilled(filled: boolean): void&lt;/div&gt;&lt;div&gt;+ getDateCreated(): Date&lt;/div&gt;&lt;div&gt;+ toString(): String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="MtleiJ79-h41vaPRRvAg-6">
+          <mxGeometry y="80" width="280" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MtleiJ79-h41vaPRRvAg-11" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="474.5" y="290" as="sourcePoint" />
+            <mxPoint x="474.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
